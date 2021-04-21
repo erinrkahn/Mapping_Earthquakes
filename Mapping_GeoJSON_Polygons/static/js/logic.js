@@ -50,3 +50,10 @@ L.geoJson(data, {
 })
 .addTo(map);
 });
+  //L.geoJson(data, {
+  //   onEachFeature: function(feature, layer) {
+  //       layer.bindPopup("<h2>Airport code: " + feature.properties.faa + "</h2> <hr> <h3>Airport name: " + feature.properties.name + "</h3>")
+  //       .addTo(map);
+  //   }
+  // })
+// });
